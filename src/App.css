@@ -1,0 +1,168 @@
+.encabezado {
+    display: flex;
+    align-items: center;
+    background: bisque; /* Fondo original */
+    padding: 1rem;
+}
+
+.imagen-encabezado {
+    width: 10%;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin-left: 1rem;
+}
+
+.menu-navegacion {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; /* Fondo oscuro para el menú */
+    padding: 1rem 0;
+}
+
+.menu-navegacion a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffffff; /* Texto blanco para que se vea en fondo oscuro */
+    padding: 0.5rem 1rem;
+}
+
+.menu-navegacion a.activo {
+    color: #d35400; /* Naranja para el activo */
+    border-bottom: 3px solid #d35400;
+    padding-bottom: 5px;
+}
+
+/* Main */
+.principal {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: #ffffff; /*ffffff*/
+    border-radius: 8px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+main p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+main video {
+    width: 100%;
+    max-height: 500px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer nav a.activo {
+    color: #f39c12;
+    border-bottom: 2px solid #f39c12;
+}
+
+footer .propaganda {
+    display: flex;
+    justify-content: center;
+}
+
+footer .propaganda img {
+    width: 150px;
+    border-radius: 4px;
+}
+
+footer p {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #555;
+    padding-top: 1rem;
+}
+
+/* Noticias */
+.noticia-card {
+    background-color: #f9f9f9;   /*#f9f9f9*/
+    margin-bottom: 1.5rem;
+    border-left: 4px solid #d35400;
+    border-radius: 4px;
+    color: #333;
+}
+
+.noticia-card h3 {
+    color: #d35400;
+    margin-bottom: 0.5rem;
+}
+
+.noticia-card a {
+    color: #d35400;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.noticia-card a:hover {
+    text-decoration: underline;
+}
+
+/* Mortandad */
+
+.tabla-mortalidad {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    color: #333;
+}
+
+.tabla-mortalidad th,
+.tabla-mortalidad td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+.tabla-mortalidad th {
+    background-color: #d35400;
+    color: white;
+}
+
+.tabla-mortalidad tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-mortalidad tr:hover {
+    background-color: #f5f5f5;
+}
