@@ -1,16 +1,59 @@
-# React + Vite
+Impacto del COVID-19 en la Sociedad
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un sitio web informativo desarrollado con **React**.
+Su propósito es presentar información clara sobre el impacto del COVID-19
+en la sociedad, incluyendo noticias, datos de mortandad y contenido multimedia.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Objetivo del sitio
 
-## React Compiler
+- Informar sobre las consecuencias del COVID-19
+- Concienciar a la población sobre su impacto social y sanitario
+- Aplicar conocimientos de desarrollo web usando React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+Secciones del sitio web
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El sitio cuenta con las siguientes páginas:
+
+- **Inicio:** Introducción al tema y un video informativo
+- **Noticias:** Información y artículos relacionados con el COVID-19
+- **Mortandad:** Datos y estadísticas sobre fallecimientos
+
+---
+
+Tecnologías utilizadas
+
+- React
+- Vite
+- React Router DOM
+- CSS
+- Git y GitHub
+- Git LFS (para manejo de videos grandes)
+
+---
+
+Estructura del proyecto
+
+covid-react/
+├── public/
+│ ├── img/
+│ └── video/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ └── App.jsx
+└── README.md
+
+
+## Cómo ejecutar el proyecto
+
+1. Instalar dependencias:
+
+
+2. Ejecutar el proyecto:
+
+
+3. Abrir en el navegador:
